@@ -1,0 +1,49 @@
+
+/* ==================================
+   JB Fitness - Global Styling
+   ================================== */
+
+/* 1. Global Page Settings */
+
+body {
+  background-color: #12161d;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Website Header */
+
+header {
+  background-color: #1c222b;
+  padding: 25px;
+  text-align: center;
+}
+
+/* 3. Main Website Heading */
+
+h1 {
+  color: #7ee0aa;
+  font-size: 36px;
+}
+
+/* 4. Main Content Area */
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+/* 5. Section Headings */
+
+h2 {
+  color: #7ee0aa;
+}
+
+/* 6. Paragraphs */
+
+p {
+  line-height: 1.6;
+}

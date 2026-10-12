@@ -1,14 +1,167 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JB-Fitness</title>
-</head>
-<body>
-<h1>JB Fitness</h1>
-<p>My Personal Fitness & Workout Tracker</p>
-<hr>
-<h2>My Workout Routines</h2>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="JB Fitness - Personal workout routines and fitness tracker."
+    />
+    <title>JB Fitness | My Training Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Website Header -->
+    <header>
+      <h1>JB Fitness</h1>
+      <p>Personal Fitness & Workout Tracker</p>
+
+      <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#schedule">Weekly Schedule</a>
+        <a href="#routines">Gym Routines</a>
+        <a href="#progress">Progress</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Dashboard Overview -->
+      <section id="home">
+        <h2>My Fitness Dashboard</h2>
+        <p>
+          Building strength, developing bigger arms and maintaining a lean,
+          athletic physique.
+        </p>
+
+        <h3>Weekly Training Overview</h3>
+        <ul>
+          <li>3 Gym Sessions</li>
+          <li>2 Insanity Max Out Cardio Sessions</li>
+          <li>2 Rest Days</li>
+        </ul>
+      </section>
+
+      <!-- Weekly Training Schedule -->
+      <section id="schedule">
+        <h2>My Weekly Training Schedule</h2>
+
+        <table>
+          <caption>
+            Weekly Workout Plan
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Day</th>
+              <th scope="col">Activity</th>
+              <th scope="col">Focus</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>Insanity Max Out</td>
+              <td>HIIT Cardio</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>Gym</td>
+              <td>Chest &amp; Triceps</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>Rest</td>
+              <td>Recovery</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>Gym</td>
+              <td>Back &amp; Biceps</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>Insanity Max Out</td>
+              <td>HIIT Cardio</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>Rest</td>
+              <td>Recovery</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>Gym</td>
+              <td>Shoulders, Arms &amp; Legs</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Gym Workout Routines -->
+      <section id="routines">
+        <h2>My Gym Workout Routines</h2>
+        <p>Three resistance training sessions each week.</p>
+
+        <article>
+          <h3>Tuesday - Chest &amp; Triceps</h3>
+          <ul>
+            <li>Bench Press</li>
+            <li>Incline Dumbbell Press</li>
+            <li>Cable Chest Fly</li>
+            <li>Triceps Pushdown</li>
+            <li>Overhead Triceps Extension</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Thursday - Back &amp; Biceps</h3>
+          <ul>
+            <li>Lat Pulldown</li>
+            <li>Seated Cable Row</li>
+            <li>Dumbbell Row</li>
+            <li>Barbell or Dumbbell Curl</li>
+            <li>Hammer Curl</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Sunday - Shoulders, Arms &amp; Legs</h3>
+          <ul>
+            <li>Shoulder Press</li>
+            <li>Dumbbell Lateral Raise</li>
+            <li>Leg Press</li>
+            <li>Leg Curl</li>
+            <li>Biceps Curl</li>
+            <li>Triceps Pushdown</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Insanity Sessions -->
+      <section id="cardio">
+        <h2>Insanity Max Out Cardio</h2>
+        <p>
+          Two high-intensity cardio sessions per week, balanced with resistance
+          training and recovery.
+        </p>
+      </section>
+
+      <!-- Progress Tracking -->
+      <section id="progress">
+        <h2>My Fitness Progress</h2>
+        <p>
+          Track workout history, sets, repetitions, weights and personal bests.
+        </p>
+        <p>Progress tracking features coming soon.</p>
+      </section>
+    </main>
+
+    <!-- Website Footer -->
+    <footer>
+      <hr />
+      <p>&copy; 2026 JB Fitness. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
